@@ -6,7 +6,6 @@ class Home extends Component {
     return (
       <div id="home">
         <h1>Home</h1>
-        <Matchups />
       </div>
     );
   }

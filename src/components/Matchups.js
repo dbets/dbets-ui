@@ -5,18 +5,16 @@ class Matchups extends Component {
     return (
       <div id="matchups">
         <div id="left-nav">
-          <ul>
-            <li>NFL</li>
-            <li>NCAAF</li>
-            <li>MLB</li>
-            <li>NBA</li>
-            <li>NHL</li>
+        <ul className="nav nav-pills nav-stacked affix">
+            <li><a href="#NFL">NFL</a></li>
+            <li><a href="#NCAAF">NCAAF</a></li>
+            <li><a href="#NBA">NBA</a></li>
+            <li><a href="#NCAAB">NCAAB</a></li>
+            <li><a href="#MLB">MLB</a></li>
+            <li><a href="#NHL">NHL</a></li>
           </ul>
         </div>
 
-        <div id="matchups-container">
-          <p>matchups</p>
-        </div>
       </div>
     );
   }
