@@ -3,3 +3,80 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+#matchups_container {
+  margin-left: 100px;
+}
+
+#matchups_container table {
+  background-color: #efebe8;
+  width: 80%;
+}
+
+#matchup-table tbody {
+  width: 80%;
+}
+
+#matchup-header {
+  background-color: black;
+  width: 80%;
+  color: white;
+}
+
+#matchup-header table {
+  width: 80%;
+}
+
+#table-header tbody {
+  background-color:black;
+
+}
+
+.date-row {
+  background-color: #d4fcd4;
+}
+
+.games-table {
+  text-align: center;
+}
+
+.games-table button{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  background-color: #22c922;
+  width: 80px;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 2px;
+  border-width: 0px;
+}
+
+.colTime {
+  width: 1000px;
+}
+
+.colTeam {
+  width: 25%;
+}
+
+.colSpread {
+  width: 10%;
+}
+
+.colML {
+  width: 10%;
+}
+
+.colTotal {
+  width: 10%;
+}
+
+.colButton {
+  width: 9%;
+}
+
+.game-row {
+  border-bottom: 1px solid grey;
+
+}
