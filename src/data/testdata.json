@@ -1,0 +1,45 @@
+[
+  {
+    "ID": "abc2a6db-818a-47aa-81d1-f4f59d75708d",
+    "HomeTeam": "Toronto Raptors",
+    "AwayTeam": "Chicago Bulls",
+    "Sport": 1,
+    "MatchTime": "2017-02-20T06:05:00Z",
+    "Odds": [{
+      "ID": "f3ae1953-bb3a-49f0-b745-8491f034f08f",
+      "EventID": "abc2a6db-818a-47aa-81d1-f4f59d75708d",
+      "SiteID": 3,
+      "MoneyLineHome": -152,
+      "MoneyLineAway": 132,
+      "PointSpreadHome": -3.0,
+      "PointSpreadAway": 3.0,
+      "PointSpreadHomeLine": -110,
+      "PointSpreadAwayLine": -110,
+      "TotalNumber": 182.5,
+      "OverLine": -110,
+      "UnderLine": -110
+    }]
+  },
+  {
+    "ID": "1334e3fa-1b65-46de-b292-31a642471697",
+    "HomeTeam": "NY Knicks",
+    "AwayTeam": "Boston Celtics",
+    "Sport": 1,
+    "MatchTime": "2017-02-20T06:05:00Z",
+    "Odds": [{
+      "ID": "9687f70c-382a-4621-be6a-3082ac3e296c",
+      "EventID": "1334e3fa-1b65-46de-b292-31a642471697",
+      "SiteID": 3,
+      "MoneyLineHome": -135,
+      "MoneyLineAway": 115,
+      "PointSpreadHome": -1.5,
+      "PointSpreadAway": 1.5,
+      "PointSpreadHomeLine": -110,
+      "PointSpreadAwayLine": -110,
+      "TotalNumber": 188.5,
+      "OverLine": -110,
+      "UnderLine": -110
+    }]
+  }
+
+]

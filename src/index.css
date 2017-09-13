@@ -4,32 +4,29 @@ body {
   font-family: sans-serif;
 }
 
+#left-nav {
+  width: 100px;
+}
+
 #matchups_container {
   margin-left: 100px;
 }
 
 #matchups_container table {
   background-color: #efebe8;
-  width: 80%;
-}
-
-#matchup-table tbody {
-  width: 80%;
 }
 
 #matchup-header {
   background-color: black;
-  width: 80%;
   color: white;
 }
 
 #matchup-header table {
-  width: 80%;
+  width: 100%;
 }
 
 #table-header tbody {
   background-color:black;
-
 }
 
 .date-row {
@@ -45,7 +42,7 @@ body {
   text-align: center;
   font-weight: bold;
   background-color: #22c922;
-  width: 80px;
+  width: 125px;
   border-radius: 5px;
   padding: 15px;
   margin: 2px;
