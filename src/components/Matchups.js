@@ -13,13 +13,15 @@ class Matchups extends Component {
     var url = "https://api.github.com/users/dBetsPiz";
     var json = require('../data/testdata.json');
 
-    console.log(json)
-
     fetch(url).then(d => d.json()).then(d => {
       d = json
       this.setState({gamesData: json})
     })
+  }
 
+  clickPick = (game, pick) => {
+    console.log(game);
+    console.log(pick);
   }
 
   render() {
@@ -27,7 +29,6 @@ class Matchups extends Component {
 
     if (window.location.hash) {
       league = window.location.hash.substring(1);
-
     } else {
       league = this.state.league;
     }
@@ -35,13 +36,10 @@ class Matchups extends Component {
     if (!this.state.gamesData) {
       return (
         <div id="left-nav">
-
           <p>Loading...</p>
         </div>
-
       )
     } else {
-
       return (
         <div id="matchups">
           <div id="left-nav">
@@ -86,14 +84,15 @@ class Matchups extends Component {
             <table>
               <thead className="date-row">Sept 10, 2017</thead>
               <tbody>
-                {this.state.gamesData.map(function(game) {
+                {console.log(this)}
+                {this.state.gamesData.map((game) => {
                   return <tr className="game-row">
                     <table className="games-table">
                       <tr>
                         <td className="colTime" rowSpan="2">{game.MatchTime}</td>
                         <td className="colTeam">{game.AwayTeam}</td>
                         <td className="colSpread">
-                          <button>{game.Odds[0].PointSpreadAway}  ({game.Odds[0].PointSpreadAwayLine})</button>
+                          <button onClick={() => this.clickPick(game, "AwaySpread")}>{game.Odds[0].PointSpreadAway}  ({game.Odds[0].PointSpreadAwayLine})</button>
                         </td>
                         <td className="colML">
                           <button>{game.Odds[0].MoneyLineAway}</button>
